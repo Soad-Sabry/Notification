@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Notification" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <!-- styles.xml -->
+    <style name="NotificationTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#0A0A0B</item>
+        <!-- Add any other text appearance attributes you want to customize -->
+    </style>
+
+    <style name="NotificationMessageStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#0A0A0B</item>
+        <!-- Add any other text appearance attributes you want to customize -->
+    </style>
+
+    <style name="Theme.Notification" parent="Base.Theme.Notification" />
+</resources>
